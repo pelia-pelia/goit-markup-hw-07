@@ -1,0 +1,45 @@
+.clients-section__tittle {
+    margin-top: 0;
+    padding-top: 94px;
+    margin-bottom: 50px;
+
+    font-family: $fontRoboto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.clients-section__container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
+}
+
+
+.clients-section__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    color: #AFB1B8;
+
+    transition: color $animationTime $animationCubic, border $animationTime $animationCubic;
+
+    &:hover,
+    &:focus {
+    color: $blueColor;
+    border: 1px solid $blueColor;
+}
+
+}
+
+.clients-section__icon {
+    fill: currentColor;
+}

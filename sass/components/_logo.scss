@@ -1,0 +1,23 @@
+.logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.logo__web-item {
+    color: $blueColor;
+    font-family: $fontRaleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.logo__studio-item {
+    color: $tittleColor;
+    font-family: $fontRaleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}

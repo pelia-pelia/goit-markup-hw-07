@@ -1,0 +1,160 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $backgroundColorDark;
+}
+
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.cont-container {
+    margin-right: 70px;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.footer-logo__web-item {
+    color: $blueColor;
+    font-family: $fontRaleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.footer-logo__studio-item {
+    color: $whiteColor;
+    font-family: $fontRaleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.contacts-list {
+    color: $whiteColor;
+    font-family: $fontRoboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.contacts-list__ref {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-list__item {
+    margin-bottom: 9px;
+}
+
+.footer__signup-text {
+    display: flex;
+
+    font-family: $fontRoboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $whiteColor;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+}
+
+.list-container__ref {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+    color: $whiteColor;
+
+    transition: background-color $animationTime $animationCubic, color $animationTime $animationCubic;
+
+    &:hover,
+    &:focus {
+    background-color: $blueColor;
+    color: $whiteColor;
+}
+}
+
+.list-container__icons {
+    fill: currentColor;
+}
+
+.list-container__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer__sign-form {
+    margin-left: 93px;
+}
+
+.footer__sign-text {
+    font-family: $fontRoboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $whiteColor;
+}
+
+.footer__input {
+    width: 358px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    background: #2f303a;
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 12px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    background-color: $blueColor;
+    color: $whiteColor;
+
+    letter-spacing: 0.06em;
+    font-family: $fontRoboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.footer__icon-submit {
+    display: inline-block;
+    margin-left: 10px;
+}

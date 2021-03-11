@@ -1,0 +1,96 @@
+.team-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: $backgroundColorLight;
+}
+
+.team-section__tittle {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    color: $tittleColor;
+    font-family: $fontRoboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.employees {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.employees__data {
+    background-color: $whiteColor;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.employees__data {
+    flex-basis: calc(100% / 4 - 30px);
+}
+
+.employees__name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    color: $tittleColor;
+    font-family: $fontRoboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.employees__text {
+    margin-top: 0;
+   
+    color: $textColor;
+    font-family: $fontRoboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.icon-list {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.icon-list__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 44px;
+
+    color: #AFB1B8;
+
+    transition: border-radius $animationTime $animationCubic, background-color $animationTime $animationCubic, color $animationTime $animationCubic;
+
+    &:hover,
+    &:focus {
+    border-radius: 50%;
+    background-color: $blueColor;
+    color: $whiteColor;
+}
+
+}
+
+.icon-socials {
+    fill: currentColor;
+}
